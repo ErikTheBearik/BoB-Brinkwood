@@ -949,19 +949,19 @@ function handlePressureChange(event) {
 /* DATA */
 const sheetVersion = "1.0";
 const playbookData = {
-  heavy: {
+  terror: {
     ability: [
-      "bulwark",
-      "backup",
-      "tenacious",
-      "weaponmaster",
-      "war_machine",
-      "vigorous",
-      "against_the_darkness",
+      "no_lords_no_masters",
+      "fear_your_slaves",
+      "sow_discord",
+      "lay_down_arms",
+      "light_the_match",
+      "calm_tensions",
+      "shock_and_awe",
       "elite",
     ],
     base: {},
-    items: {
+    items: { ###
       light: [
         { name: "fine_armor", isFine: true },
         { name: "fine_hand_weapon", isFine: true },
@@ -1003,7 +1003,7 @@ const playbookData = {
         { name: "reliquary", boxes: 2, uses: 3 },
       ],
     },
-    specialistAction: "anchor",
+    specialistAction: "frighten","awe","disarm","explode",
     startingActions: {
       skirmish: "2",
       wreck: "1",
